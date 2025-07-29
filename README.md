@@ -13,6 +13,17 @@ It highlights low-level manipulation of strings, macros, and file I/O using x86 
 - Converts ASCII strings to signed integers (handling negatives)
 - Prints the converted values in reverse order
 - Includes custom macros for input/output abstraction
+- 
+## 💡 Concepts Demonstrated
+
+- Use of string primitive instructions (`LODSB`, `STOSD`) for character and array processing
+- File input/output operations via the Irvine32 library:
+  - `OpenInputFile`, `ReadFromFile`, `CloseFile`
+- Stack-based parameter passing and local variable management with `EBP`
+- Use of custom macros for modular code structure and reuse:
+  - `mGetString`, `mDisplayString`, `mDisplayChar`
+- ASCII-to-signed-integer conversion, including handling of negative values
+- Reverse traversal of arrays using `STD` and pointer arithmetic
 
 ## 🛠️ Key Components
 
@@ -33,3 +44,19 @@ Enter the name of the file (20 characters max) to be read: temps.txt
 Here's the corrected temperature order:
 10,8,6,-2,0,-5,...
 Thank you for using the Intern Error Reverser! Goodbye!
+
+## :open_file_folder: File Structure
+```
+cs271-intern-error-reverser/
+├── README.md            # You are here
+├── Proj6_bersta.asm     # MASM source code
+└── Temps090124.txt      # Sample input file
+```
+
+## 📎 Requirements
+
+- Windows OS with MASM-compatible development environment (e.g., Visual Studio)
+- Irvine32 library properly installed and configured
+- Sample temperature data file in comma-delimited ASCII format (e.g., `Temps090124.txt`)
+- Irvine32.inc and associated files must be available in the project path or included as references
+
