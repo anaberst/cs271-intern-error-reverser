@@ -11,7 +11,7 @@ It consists of these key components:
 - `ParseTempsFromString`: Procedure to parse and convert the ASCII values into integers
 - `WriteTempsReverse`: Procedure to print the integers in reverse order
 
-## :hourglass_flowing_sand: Example Execution
+## :computer: Example Execution
 
 ```plaintext
 Uh Oh! Did the intern make a mistake? Not to worry... Welcome to the Intern Error Reverser!
