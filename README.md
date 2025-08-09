@@ -1,4 +1,4 @@
-# :arrows_counterclockwise: CS271 Intern Error Reverser
+# :arrows_counterclockwise: CS271 Error Reverser
 
 Final project for `CS271: Computer Architecture and Assembly Language` at Oregon State University. It has been approved for public sharing.
 
@@ -27,7 +27,7 @@ Thank you for using the Intern Error Reverser! Goodbye!
 
 ## :open_file_folder: File Structure
 ```
-cs271-intern-error-reverser/
+cs271-error-reverser/
 ├── README.md            # You are here
 ├── Proj6_bersta.asm     # MASM source code
 └── Temps090124.txt      # Sample input file
